@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>左侧导航menu</title>
+<link href="<?= AC ?>/css.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="<?= AJ ?>sdmenu.js"></script>
+<script type="text/javascript">
+	// <![CDATA[
+	var myMenu;
+	window.onload = function() {
+		myMenu = new SDMenu("my_menu");
+		myMenu.init();
+	};
+	// ]]>
+</script>
+<style type=text/css>
+html{ SCROLLBAR-FACE-COLOR: #538ec6; SCROLLBAR-HIGHLIGHT-COLOR: #dce5f0; SCROLLBAR-SHADOW-COLOR: #2c6daa; SCROLLBAR-3DLIGHT-COLOR: #dce5f0; SCROLLBAR-ARROW-COLOR: #2c6daa;  SCROLLBAR-TRACK-COLOR: #dce5f0;  SCROLLBAR-DARKSHADOW-COLOR: #dce5f0; overflow-x:hidden;}
+body{overflow-x:hidden; background:url(<?= AI ?>/main/leftbg.jpg) left top repeat-y #f2f0f5; width:194px;}
+</style>
+</head>
+<body onselectstart="return false;" ondragstart="return false;" oncontextmenu="return false;">
+<div id="left-top">
+	<div><img src="<?= AI ?>/main/member.gif" width="44" height="44" /></div>
+    <span>用户：admin<br>角色：超级管理员</span>
+</div>
+    <div style="float: left" id="my_menu" class="sdmenu">
+      <div class="collapsed">
+        <span>系统设置</span>
+        <a href="view/index/main.html" target="mainFrame" onFocus="this.blur()">后台首页</a>
+      
+      </div>
+
+      <div>
+        <span>用户设置</span>
+        <a href="index.php?c=user" target="mainFrame" onFocus="this.blur()">用户列表</a>
+        <a href="index.php?c=user&m=add" target="mainFrame" onFocus="this.blur()">添加用户</a>
+ 
+      </div>
+
+      <div>
+        <span>分类设置</span>
+        <a href="index.php?c=category" target="mainFrame" onFocus="this.blur()">分类列表</a>
+        <a href="index.php?c=category&m=add" target="mainFrame" onFocus="this.blur()">添加分类</a>
+      </div>
+      
+      <div>
+        <span>商品设置</span>
+        <a href="index.php?c=goods" target="mainFrame" onFocus="this.blur()">商品列表</a>
+        <a href="index.php?c=goods&m=add" target="mainFrame" onFocus="this.blur()">添加商品</a>
+    </div>
+    <div>
+        <span>订单设置</span>
+        <a href="index.php?c=order" target="mainFrame" onFocus="this.blur()">订单列表</a>
+    </div>
+     <div>
+        <span>评论设置</span>
+        <a href="index.php?c=evaluate" target="mainFrame" onFocus="this.blur()">列表列表</a>
+    </div>
+</body>
+</html>

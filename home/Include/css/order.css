@@ -1,0 +1,205 @@
+#order_main{
+	padding: 0;
+	margin: 0;
+	width: 1146px;
+	min-height:500px ;
+	margin:20px auto;
+}
+	.order_main_delivery_address,.order_main_delivery_goods{
+		width: 1146px;
+		height:70px;
+		line-height:70px;
+		background: #fff;
+		font-size:20px;
+		text-indent:55px;
+	}
+	.order_main_delivery_address_information{
+		width: 1146px;
+		min-height:250px;
+		background: #fff;
+		margin-top:10px;
+	}
+		.order_main_form_information{
+			margin-left: 55px;
+			width: 500px;
+			min-height: 200px;
+			/* background: blue; */
+			font-size:15px;
+			/* letter-spacing: 1px; */
+		}
+		.receiver_name,.receiver_tel,.receiver_address{
+			width: 200px;
+			height: 30px;
+			/* background: red; */
+			margin-top:35px;
+			outline:none;
+			border:1px solid  #55A0FF;
+		}
+		.save_information{
+			width: 80px;
+			height: 40px;
+			background:#55A0FF ;
+			margin-top:35px;
+			margin-left:85px;
+			border-radius:15%;
+			cursor:pointer;
+		}
+	.order_main_delivery_goods{
+		margin-top:10px;
+	}
+	.order_main_deliver_goods_nav{
+		margin-top: 5px;
+		width: 1146px;
+		height: 50px;
+		background:#F9F9FC;
+	}
+		.order_main_deliver_goods_nav span{
+			line-height:50px;
+			font-size:15px;
+
+			}
+			.order_main_deliver_goods_nav_title{
+				padding-left:50px;
+			}
+			.order_main_deliver_goods_nav_unit_price{
+				padding-left:530px;
+			}
+			.order_main_deliver_goods_nav_title_num{
+				padding-left:127px;
+			}
+			.order_main_deliver_goods_nav_title_total{
+				padding-left:172px;
+			}
+
+	.order_main_deliver_goods_information{
+		width: 1146px;
+		min-height:130px;
+		background: #fff;
+		position: relative;
+		border-bottom:1px solid #ccc;
+	}
+		.order_main_deliver_goods_information input{
+			border: 0px;
+			width: 80px;
+		}
+
+		.order_main_deliver_goods_information_picture{
+			width: 90px;
+			height: 90px;
+			position: absolute;
+			/* background: url('../image/order_main3.jpg')0 0/90px ; */
+			left:20px;
+			top:20px;
+		}
+		.order_main_deliver_goods_information_title{
+			width: 515px;
+			height: 130px;
+			position: absolute;
+			left:120px;
+			line-height:130px;
+		}
+		
+		.order_main_deliver_goods_information_unit_price,.order_main_deliver_goods_information_num{
+			width: 180px;
+			height: 130px;
+			position: absolute;
+			line-height:130px;
+		}
+		.order_main_deliver_goods_information_unit_price{
+			left:635px;
+		}
+		.order_main_deliver_goods_information_num{
+			left:815px;
+		}
+		.order_main_deliver_goods_information_total{
+			position: absolute;
+			line-height:130px;
+			width: 80px;
+			height: 130px;
+			left:995px;
+		}
+
+	.order_main_goods_information_foot{
+		width: 1146px;
+		min-height:200px;
+		background: #fff;
+	}
+
+		.order_main_goods_information_foot_dicount{
+			height: 80px;
+			width: 1146px;
+			line-height:80px;
+		}
+			.order_main_goods_information_foot_dicount_add{
+				margin-left: 55px;
+				font-size:20px;
+				border:1px solid #69B9FF;
+				padding:0px 5px;
+				padding-bottom:1px;
+				border-radius:100%;
+				font-weight:bold;
+				color:#fff;
+				background: #69B9FF;
+			}
+			.order_main_goods_information_foot_dicount_use{
+				margin-left: 5px;
+
+			}
+
+		.order_main_goods_information_foot_list{
+			width: 1146px;
+			min-height:200px;
+			margin-top: 20px;
+		}
+			.order_main_goods_information_foot_list input{
+			border:0px;
+			width: 80px;
+		}
+
+			.order_main_goods_information_foot_list_content{
+				float:right;
+				margin-right: 50px;
+			}
+			.order_main_goods_information_foot_list_title{
+				float:right;
+				margin-right: 120px;
+			}
+
+			.order_main_goods_information_foot_list ul li{
+				margin-top: 10px;
+			}
+
+		.order_main_goods_information_foot_submit{
+			width: 1146px;
+			height: 50px;
+			padding-bottom:20px;
+
+		}
+			.order_main_goods_information_foot_submit_button{
+				width: 112px;
+				height: 50px;
+				background:#55A0FF;
+				float:right;
+				margin-right: 20px;
+				cursor:pointer;
+				border-radius:10%;
+				color:#fff;
+			}
+			.order_main_goods_information_foot_submit_total{
+				float: right;
+				margin-right: 70px;
+				line-height:50px;
+				color:#55A0FF;
+			}
+				.order_main_goods_information_foot_submit_total input{
+					color:#55A0FF;
+					border:0px;
+					width: 80px;
+
+				}
+
+			.order_main_goods_information_foot_submit_title{
+				float:right;
+				line-height:50px;
+				margin-right: 10px;
+			}

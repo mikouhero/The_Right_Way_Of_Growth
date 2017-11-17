@@ -1,0 +1,151 @@
+
+
+	.main_product{
+		width: 1146px;
+		min-height: 600px;
+		margin: 0 auto;
+		margin-top:20px;
+		background: #fff;
+		margin-bottom: 5px;
+	}
+		.main_product_img{
+		width: 530px;
+		height: 530px;
+		float:left
+		}
+	.main-product_info{
+		width: 570px;
+		height: 555px;
+		float:right;
+	}
+			.main_product_info_title{
+			    font: normal 700 normal 18px Rubik-Regular,PingFang SC,PingHei,PingFangHei,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,STHeiTi,sans-serif;
+			    color: #333;
+			    line-height: 60px;
+			    box-shadow: 0 1px 0 0 rgba(0,0,0,.05);
+			}
+			.main_product_info_price{
+				width: 570px;
+				height: 56px;
+				font-size: 24px;
+	    		color: #55a0ff;
+			}
+			.main_product_info_deliver{
+			   font-size: 13px;
+   				color: #666;
+   				    height: 27px;
+   			 line-height: 27px;
+    		display: inline-block;
+			}
+			.main_product_info_color{
+				margin: 0;
+   			 	padding: 16px 0 10px;
+   				font-weight: 400;
+    			color: #999;
+    			font: normal normal normal 13px Rubik-Regular,PingFang SC,PingHei,PingFangHei,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,STHeiTi,sans-serif;
+			}
+			.main_product_info_ul{
+				    list-style: none;
+			}
+			.main_product_info_ul li{
+				float:left;
+		    width: 200px;
+		    height: 40px;
+		    margin-right: 20px;
+		    line-height: 35px;
+		    margin-bottom: 20px;
+		    border: 1px solid #dfdfdf;
+		    list-style: none;
+		    text-align: center;
+		    cursor: pointer;
+		    border-radius: 4px;
+		    font-size: 14px;
+		    font-family: Rubik-Regular,PingFang SC,PingHei,PingFangHei,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,STHeiTi,sans-serif;
+					}
+				.main_product_info_ul li:hover{
+		    border: 1px solid  #55a0ff;
+
+				}
+
+			.main_product_info_check{
+				clear:both;
+				width:200px ;
+				height:18px ;
+					font-size: 18px;
+    				color: #999;
+    				margin-bottom: 20px;
+				}
+			.main_product_info_chechpro{
+				font-size: 18px;
+    				color: #999;
+			}
+					.check_price{
+						color:#2485FF;
+					}
+
+					.add-to-cart-button {
+						    color: #fff;
+					    background: #f5b400;
+					    border: 0;
+					    margin-top:40px;
+					    width: 250px;
+					    height: 60px;
+					    font-size:20px;
+					  cursor:pointer;
+					
+					}
+					.buy-now-button{
+					 color: #fff;
+				    background: #6496ff;
+				    border: none;
+				    background: #2485ff;
+				    width: 250px;
+					   height: 60px;
+					   font-size:20px;
+					  cursor:pointer;
+
+					}
+		.main_product_img_delatils{
+
+			clear:both;
+			width: 600px;
+			height: 110px;
+		}
+		.main_product_img_delatils ul{
+			list-style:none;
+			margin:0px;
+			padding:0px;
+		}
+		.main_product_img_delatils ul li{
+			margin:0px;
+			padding:0px;
+			float:left;
+			margin-left:5px;
+		    border:1px solid #2485ff;
+
+		}
+#main_details{
+	width: 1146px;
+	min-height: 50px;
+	margin:0 auto;
+	background: #fff;
+}
+
+	
+	.main_details_title{
+		width: 1146px;
+		height: 50px;
+	}
+	.main_details_title ul li{
+		float:left;
+		margin-left:40px;
+		margin-top:10px;
+		font-size: 20px;
+		color:#999;
+	}
+	.main_details_banner1{
+		margin:0 auto;
+		width: 1920px;
+		height: 950px;
+		display: block;
+	}

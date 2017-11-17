@@ -1,0 +1,151 @@
+.all_order{
+			min-width: 500px;
+			min-height:50px;
+			/* background_color:red; */
+			position: relative;
+
+		}
+			.all_order_11{
+				margin-top:10px;
+				float:left;
+
+			}
+
+			.all_order_nav{
+				width: 900px;
+				height: 40px;
+				background: #fbfbfb;
+				border-bottom: 1px solid #eee;
+				border-top: 1px solid #eee;
+
+				
+			}
+
+
+			.all_order_nav span{
+
+				float: left;
+				margin-top: 2px;
+				line-height: 40px;
+				text-align: left;
+				padding: 0 30px;
+				font-size: 14px;
+				/* margin_right: 60px; */
+			}
+				.all_order_nav_details{
+				display: inline-block;
+				color: #55a0ff;
+				margin-left:142px;
+				cursor: pointer;
+			}
+			.all_order_list_left{
+				width: 620px;
+				float: left;
+				background: #fff;
+				box-sizing: border-box;
+				border-right: 1px solid #f2f2f2;
+				padding-left: 30px;
+			}
+			
+			.all_order_list_left dl{
+			box-sizing: border-box;
+			height: 130px;
+			border-bottom: 1px solid #f2f2f2;
+			}
+
+			.all_order_list_left dl dt{
+				float: left;
+				box-sizing: border-box;
+				height: 90px;
+				width: 90px;
+				border-radius: 4px;
+				border: 1px solid #eeeef3;
+				margin-top: 20px;
+				margin-right: 25px;
+				overflow: hidden;
+			}
+				.all_order_list_left dl dd span{
+					
+					line-height:130px;
+				}
+
+			
+				.all_order_list_left dl dt img{
+					border: 0;
+					border-radius: 4px;
+					height: 90px;
+					width: 90px;
+				}
+
+						.all_order_list_product_name{
+							padding-left:30px;
+							display: inline-block;
+							width: 260px;
+							text-overflow: ellipsis;
+							white-space: nowrap;
+							overflow: hidden;
+							color: #111;
+							font-size: 14px;
+							float: left;
+							
+
+						}
+						.all_order_list_product_price{
+							color: #4a4a4a;
+							font-size: 14px;
+							display: inline-block;
+							float: left;
+							width: 70px;
+							text-align: left;
+							margin-left: 10px;
+							font-weight: 700;
+						}
+						.all_order_list_product_count{
+							color: #111;
+							font-size: 14px;
+							float: left;
+							width: 50px;
+							text-align: center;
+							margin-left: 16px;
+						}
+
+			.all_order_list_right{
+				width: 260px;
+				float: left;
+				box-sizing: border-box;
+				position: relative;
+			}
+				.all_price{
+					height: 40px;
+					width: 50px;
+					position: absolute;
+					top: 36px;
+					right: 200px;
+					line-height: 40px;
+					text-align: center;
+					font-size: 16px;
+					color: #666;
+					font-weight: 700;
+				}
+				.order-_status{
+					position: absolute;
+					top: 45px;
+					left:150px;
+					text-align: right;
+					font-size: 15px;
+					color: #666;
+					z-index:99;
+				}
+
+				.all_order_nav_page{
+					text-align:center;
+					line-height:40px;
+				}
+
+				.order_cancle{
+					position: absolute;
+					z-index:99;
+					right:35px;
+					top:90px;
+
+				}

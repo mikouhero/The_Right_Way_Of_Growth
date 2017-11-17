@@ -1,0 +1,58 @@
+<?php $this->header() ?>
+	<div id = 'content'>
+		<?php $this->comment() ?>
+			
+		<div class='content_right'>
+
+				<div class ='all_order'>
+
+		
+					<div class = all_order_11>
+
+							<div class ='all_order_nav'>
+								<span class="all_order_nav_code">订单号:<?= $data['0']['orderNum']?></span>
+								<span class="all_order_nav_date"><?= date('Y-m-d H:i:s',$data['0']['time'])?></span>
+								<span class="all_order_nav_price">单价</span></nav>
+								<span class="all_order_nav_qty">数量</span>
+								<!-- <span class="all_order_nav_hand">操作</span> -->
+								<span class="all_order_nav_details" data_id="71574741">订单详情</span>
+							</div>
+			<?php  foreach($data as $k=>$v):?>
+							<div class="all_order_list_left">
+					            <dl>
+					                <dt><img src="<?= imgUrl($v['icon'])?>"></dt>
+					                <dd>
+					                    <span class="all_order_list_product_name"><?= $v['name']?></span>
+					                    <span class="all_order_list_product_price"><?= $v['price']?></span>
+					                    <span class="all_order_list_product_count"><?= $v['count']?></span>
+					                </dd>
+					            </dl>
+					        </div>
+			<?php  endforeach ?>
+						<div class="all_order_list_left">
+							 <dl>
+					            
+					                <dd>
+					                   <p style='letter-spacing:2px;color:#999;font-size:16px;padding:10px'>收货人:<?= $data[0]['receiver']?></p>
+					                   <p style='letter-spacing:2px;color:#999;font-size:16px;padding:10px'>收货地址:<?= $data['0']['address']?></p>
+					                   <p style='letter-spacing:2px;color:#999;font-size:16px;padding:10px'>电话:<?= $data['0']['phone']?></p>
+					                </dd>
+					            </dl>
+						</div>
+
+					</div>
+						
+				</div>		
+		</div>
+		<!-- 分页失败 -->
+<!--  
+		<div class='content_right11' height='20px'>
+				<div class ='all_order'>
+							<div class ='all_order_nav'>
+								<p class='all_order_nav_page'> <?= $page->show('personal')?> </p>
+							</div>
+				</div>		
+		</div> -->
+	</div>
+<?php $this->footer() ?>
+	

@@ -1,0 +1,129 @@
+
+
+
+#payment_main{
+	width: 1146px;
+	min-height: 288px;
+	margin:0 auto;
+	margin-top: 20px;
+}
+	.payment_main_no_goods{
+		margin-top:10px;
+		width: 1146px;
+		min-height: 285px;
+		background: #fff;
+	}
+		.payment_main_no_goods_car{
+				padding-top:20px;
+		text-align:center;
+
+			font-size:30px;
+			color:#000;
+		}
+		.payment_main_no_goods_desc{
+			padding-top:20px;
+			padding-bottom:40px;
+		text-align:center;
+
+
+		}
+		.payment_main_no_goods_go{
+			border:1px solid #55A0FF;
+			padding:10px  35px;
+			color:#55A0FF
+		}
+		.payment_main_no_goods_go:hover{
+			color:#fff;
+			background: #55A0FF;
+		}
+
+		.payment_main_information{
+			float:left;
+			margin-top:20px;
+			width: 300px;
+			height: 100px;
+		}
+			
+			.payment_main_information p{
+				margin-left: 50px;
+				margin-top:10px;
+			}
+
+
+
+			.payment_main_money{
+				float:right;
+				margin-top: 35px;
+				margin-right:50px ;
+				width: 250px;
+				height: 60px;
+				
+
+
+			}
+
+			.payment_main_money_1{
+			    color: #333;
+			    line-height: 60px;
+			    width: 80px;
+			    height: 60px;
+			    text-align: center;
+			    float: left;
+
+			}
+			.payment_main_money_2{
+				width: auto;
+				height:60px ;
+				font-size:22px;
+				line-height:60px;
+				color:#ff4b4b;
+			}
+
+	.payment_main_platform{
+		margin-top:10px;
+
+		width: 1146px;
+		min-height:150px;
+		background: #fff;
+	}
+	.payment_main_platform_1{
+		float:left;
+		margin-top:40px;
+		margin-left:80px;
+
+	}
+	.payment_main_platform_2{
+		width: 120px;
+		height:50px;
+		float:right;
+		margin-right: 40px;
+		margin-top: 52px;
+		background: #579DFF;
+		color:#fff;
+		text-align:center;
+	}
+
+	.payment_main_platform_2 span{
+		margin-top:10px;
+		font-size:18px;
+		line-height:50px;
+	}
+
+
+		.payment_main_headline{
+			width: 1146px;
+			height: 70px;
+			margin-top: 20px;
+			text-indent:20px;
+			font: normal normal normal 18px/70px Rubik-Regular,PingFang SC,PingHei,PingFangHei,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,STHeiTi,sans-serif;
+			color: #333;
+			background-color: #fff;
+			box-shadow: 0 0 2px 8px hsla(0,0%,96%,.6);
+		}
+
+
+
+
+
+
+		

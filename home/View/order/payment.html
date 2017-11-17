@@ -1,0 +1,39 @@
+<?php $this->header();?>
+
+		<div id = 'payment_main'>
+				<div class= 'payment_main_headline'>支付订单</div>
+				
+					<div class ='payment_main_no_goods' >
+						<p class ='payment_main_no_goods_car '>订单已提交成功！</p>
+						<p class='payment_main_no_goods_desc'>请您立即支付订单</p>
+						
+						<div  class='payment_main_information'>
+							<p>订单号：<?= $data['orderNum'] ?></p>
+							<p>收货人：<?= $data['receiver']?> &nbsp;&nbsp;&nbsp;&nbsp;<?= $_POST['phone']?> </p>
+							<p>地址：<?= $data['address']?></p>
+						</div>
+
+						<div class = 'payment_main_money'>
+							<div class = 'payment_main_money_1'>应付总额：</div>
+							<div class = 'payment_main_money_2'>￥<?= $data['amount']?> 元</div>
+						</div>
+						<!-- <a href="index.php" class='payment_main_no_goods_go'>前往购物</a> -->
+					</div>
+
+				<div class= 'payment_main_headline'>选择支付平台</div>
+
+					<div class ='payment_main_platform' >
+						
+						<div  class='payment_main_platform_1'>
+							<img src="include/image/alplay.png" alt="">
+						</div>
+
+						<a href="index.php?c=order&m=successPay">
+							<div class = 'payment_main_platform_2'>
+								<span>确认支付</span>
+							</div>
+						</a>
+					</div>
+
+		</div>
+<?php $this->footer(); ?>

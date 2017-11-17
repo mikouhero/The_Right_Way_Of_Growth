@@ -1,0 +1,79 @@
+<?php $this->header();?>
+
+		<div id = 'shopping_main'>
+				<div class= 'shopping_main_headline'>我的购物车</div>
+				
+				<?php if( empty($_SESSION['shop']) ):?>
+					<div class ='shopping_main_no_goods' >
+						<p class ='shopping_main_no_goods_car iconfont'>&#xf0148;</p>
+						<p class='shopping_main_no_goods_desc'>您的购物车内没有商品</p>
+						<a href="index.php" class='shopping_main_no_goods_go'>前往购物</a>
+					</div>
+				<?php else:?>
+				<form action="index.php?c=order&m=order" method='post'>
+					<p class='shopping_main_headbar'>
+						<span class="cartbox_common_headbar_item cbt_name">商品名称</span>
+						<span class="cartbox_common_headbar_item cbt_price">单价</span>
+						<span class="cartbox_common_headbar_item cbt_num">数量</span>
+						<span class="cartbox_common_headbar_item cbt_total">小计</span>
+						<span class="cartbox_common_headbar_item cbt_operation">操作</span>
+					</p>
+						<?php foreach($_SESSION['shop'] as $k=>$v ):?>
+						
+							<div class='shopping_main_goods'>
+								<div class='shopping_main_goods_pic'>
+									<img src="<?= imgUrl($v['icon']) ?>" alt="" width = '92px' height='92px' style='border:1px solid #EEE'>
+								</div>
+								<span  class='shopping_main_goods_pic_title'>
+							
+									<input type="text" value='<?= $v["name"]?>' readonly >
+								</span>
+
+								<span class='shopping_main_goods_pic_price'>
+									<input type="text" value='￥<?= $v["price"]?>' readonly>
+								</span>
+
+								<span class='shopping_main_goods_num'>
+										<a href="index.php?c=goods&m=sub&id=<?= $k ?>"><span class='shopping_main_goods_down'>-</span></a>
+										<span class='shopping_main_goods_count'>
+											<input type="text" value='<?= $v["count"]?>' readonly >
+										</span>
+										<a href="index.php?c=goods&m=add&id=<?= $k ?>"><span class='shopping_main_goods_up'>+</span></a>
+								</span>
+									<?php 
+										//  小计   数量 x 单价
+										 $sum = $v['count']*$v['price'];
+									?>
+								<span class='shopping_main_goods_total_price'>
+									<input type="text" value='￥<?= $sum ?>' readonly>
+								</span>
+								<a href="index.php?c=goods&m=doDelShop&id=<?= $k ?>"><span class='shopping_main_goods_action'>×</span></a>
+							</div>
+						<?php 
+								//  总数 
+								$num += $v['count'];
+								//总价
+								$total += $sum
+					
+						?>
+
+						<?php endforeach ?>
+
+					<div class='shopping_main_foot'>
+						<div class='shopping_main_foot_select'>
+						</div>
+						<div class= 'shopping_main_foot_settle_news'>
+							<p class='shopping_main_foot_select_news_goods'>共 <span style='color:#2485FF'><?= $num?> </span>件商品 </p>
+						</div>
+						<div class='shopping_main_foot_center'>
+							<span class='shopping_main_foot_count'>总计(不含运费):</span>
+							<span class='shopping_main_foot_count_price'>
+								<input type="text" value='￥<?= $total?>' readonly >
+							</span>
+						</div>
+						<input type='submit' value= '前往结算' class='shopping_main_foot_go'>
+					</div>
+				</form>
+				<?php endif ?>
+		</div>
+<?php $this->footer(); ?>

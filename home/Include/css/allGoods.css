@@ -1,0 +1,115 @@
+
+#allgoods_main{
+	width: 1158px;
+	min-height:300px;
+	background: #EEE;
+	margin:0 auto;
+	margin-bottom:100px;
+}
+	.allgoods_main_title{
+		height:53px;
+	}
+		.allgoods_main_title_left{
+			width: 300px;
+			height: 53px;
+			float:left;
+
+		}
+
+			.allgoods_main_title_left_option li {
+				float:left;
+				margin-top:10px;
+				margin-left:10px;
+
+			}
+			.allgoods_main_title_left_option a,.allgoods_main_title_right_option a{
+				color:#666;
+			}
+		.allgoods_main_title_left_option a:hover,.allgoods_main_title_right_option a:hover{
+					color: #55a0ff;
+		}
+
+		.allgoods_main_title_right{
+			width: 500px;
+			height: 53px;
+			float:right;
+
+		}
+			.allgoods_main_title_right_option li {
+				float:right;
+				margin-top:10px;
+				margin-right:10px;
+			}
+	
+	.allgoods_main_goods{
+		width: 1152px;
+		min-height: 300px;
+	}
+		.allgoods_main_goods_list li{
+			width: 282px;
+			height: 310px;
+			background: #fff;
+			float:left;
+			margin-bottom:10px;
+			text-align: center;
+			transition:all 0.3s;
+
+		}
+		.allgoods_main_goods_list_one:hover{
+			box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+			transform:translateY(-3px);
+		}
+		
+
+		.allgoods_main_goods_list_1{
+			float:right;
+			margin-left: 6px;
+		}
+				.allgoods_main_goods_list li img{
+					width: 180px;
+					height: 180px;
+					margin-top: 20px;
+				}
+				.allgoods_main_goods_list_name{
+					font-size:14px;
+					color: #666;
+					margin-top: 0px;
+
+				}
+				.allgoods_main_goods_list_name:hover{
+					color: #55a0ff;
+
+				}
+				.allgoods_main_goods_list_des{
+					color: #999;
+					font-size: 13px;
+					margin-top: 8px;
+
+				}
+				.allgoods_main_goods_list_price{
+					color: #55a0ff;
+					font-size: 18px;
+					margin-top: 15px;
+
+				}
+		.allgoods_main_bottom{
+			    clear: both;
+			    border: red solid 1px;
+			    width: 200px;
+			    height: 200px;
+			    margin: 10px auto;
+		}
+			.allgoods_main_bottom ul li{
+				/* float:left; */
+			/* 	margin-top:5px;
+				margin-left:40px; */
+				color:#999;
+			}
+			.allgoods_main_bottom ul li:hover{
+					color: #55a0ff;
+				
+			}
+			.allgoods_main_bottom ul{
+				text-align: center;
+				margin-left:480px;
+			}

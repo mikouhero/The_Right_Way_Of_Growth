@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>酷派账号</title>
+	<link rel="stylesheet" href="include/css/login.css">
+	<link rel="stylesheet" href="../mall/download/font_ntgm2q82rzfr/iconfont.css">
+</head>
+<body>
+	<div id = 'login_top'>
+		<div class='login_top_logo'></div>			
+	</div>
+	<div id = 'login_main'>
+		<div class='login_title'>
+			<div class='login_title_cool'>———————————&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;酷派商城&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;———————————</div>
+		</div>
+		<div class='login_form'>
+			<a href="" ><span class='login_byAccount'>用户名密码登录</span></a>
+			<span class='login_line'>|</span>
+			<a href=""  ><span class='login_byTel'>手机号短信登录</span></a>
+			<div class='login_main_form'>
+
+				<form action="index.php?c=login&m=doLogin" method='post'>
+					<div class='login_main_form_tel'>
+						<input type="text" name ='tel' placeholder='手机号' maxlength = 11>
+					</div>
+					<div class='login_main_form_pwd'>
+						<input type="password" name="pwd" id="" maxlength=16 minlength=6 placeholder='密码(6-16位)'>
+					</div>
+					<div class='login_main_form_randcode'>
+						<input type="text" name="code" maxlength= 4 id="" placeholder='验证码'>
+						<img src="index.php?c=login&m=code" onClick="this.src=this.src+'&x='+Math.random()">
+					</div>
+					<div class='login_main_form_login'>
+						<input type="submit" name="" id="" value='立即登录'>
+					</div>
+					
+				</form>
+				
+				<span class='login_main_bottom'>
+						<a href="index.php?c=reg" class='login_reg'>注册酷派账号</a>
+						<span class='login_line_bottom'>|</span>
+						<a href="" class='login_forget'>忘记密码?</a>
+				</span>
+			</div>
+			
+			<a href=""><div class='login_main_other'></div></a>
+			
+		</div>
+		
+	</div>
+	<div id ='login_bottom'>
+		<p>Copyright © 2015 版权所有 宇龙计算机通信科技(深圳)有限公司 粤ICP备10028763号-1 </p>
+	</div>
+	
+</body>
+</html>

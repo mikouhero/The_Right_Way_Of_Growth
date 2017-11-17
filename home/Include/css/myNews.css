@@ -1,0 +1,138 @@
+
+
+
+#content{
+	width: 1146px;
+	min-height:830px;
+	background: #ccc;
+	margin:20px auto;
+}
+	.content_left{
+		width: 209px;
+		min-height: 830px;
+		float:left;
+		background: #fff;
+	}
+		.content_left_header{
+			width: 209px;
+			height: 170px;
+			/* background: blue; */
+			text-align: center;
+
+		}
+			.content_left_header img{
+				/* font-size:80px; */
+				margin-top: 20px;
+				/* color:#999; */
+			}
+			.content_left_header p{
+				margin-top: 20px;
+				font-size:20px;
+			background: #fff;
+			}
+		.user_center_nav_ul {
+		margin:0px;
+		padding:0px;
+		list-style:none;
+	
+
+		}
+			.user_center_nav_ul li{
+				/* text-align: center; */
+				font-size:16px;
+				width: 209px;
+				height: 70px;
+				font-weight:600;
+				border-top:1px solid #eee;
+				top:10px;
+				color:#999;
+				position: relative;
+				}
+				.user_center_nav_ul li span{
+					position:absolute;
+					top:32%;
+					left:24%;
+				}
+				.user_center_nav_ul li:hover{
+					color:#2485FF;
+				}
+
+	.content_right{
+		float:right;
+		width: 921px;
+		min-height: 830px;
+		background: #fff;
+	}
+	.content_right11{
+		float:right;
+		width: 921px;
+		min-height:20px;
+		background: #fff;
+	}
+		.user_order{
+			width: 921px;
+			height: 70px;
+		}
+		.user_order_nav li{
+			box-sizing: border-box;
+			list-style: none;
+			float: left;
+			text-align: center;
+			color: #111;
+			cursor: pointer;
+			position: relative;
+			height: 30px;
+			line-height: 30px;
+			margin-top: 20px;
+			padding: 0 28px;
+			font-size: 18px;
+			border-right: 1px solid #eee;
+		}
+				.user_order_nav li:hover{
+					color:#2485FF;
+
+				}
+		.user_order_main{
+			width: 921px;
+			height: 599px;
+		}
+
+
+
+		.wel_main{
+			width: 900px;
+			min-height:100px;
+			margin: auto ;
+			text-align:center;
+			margin-top:120px;
+		
+		}
+		.wel_main a{
+			text-decoration:none;
+		}
+
+		.wel_main_img{
+				margin-bottom:80px;
+		}
+		.wel_main_introduce{
+			margin-top:50px;
+			font-size:28px;
+			letter-spacing:10px;
+			color:#3385FF;
+			padding-bottom:30px;
+
+		}
+
+		
+		
+		.wel_main_go_shoppping{
+			border:1px solid  #3385FF;
+			padding:10px 20px;
+			letter-spacing:3px;
+			font-size:20px;
+			color:#3385FF;
+		}
+		.wel_main_go_shoppping:hover{
+			background: #3385FF;
+			color:#fff;
+		}
