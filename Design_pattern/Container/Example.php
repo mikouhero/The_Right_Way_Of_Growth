@@ -139,7 +139,9 @@ class Container
 
 // ----
 $class = new Container();
+
 $class->b = 'B';
+
 $class->a = function ($class) {
     return new A($class->b);
 };
@@ -148,11 +150,11 @@ $model = $class->a;
 $model->doSomething();
 
 
-$di = new Container();
-$di->php7 = 'A';
-/** @var A $php7 */
-$foo = $di->php7;
-var_dump($foo);
-
-$foo->doSomething();
+//$di = new Container();
+//$di->php7 = 'A';
+///** @var A $php7 */
+//$foo = $di->php7;
+//var_dump($foo);
+//
+//$foo->doSomething();
 
