@@ -34,7 +34,7 @@ class TcpServer
     public $server;
     public function __construct()
     {
-        $this->server = new swoole_server('127.0.0.1',9501);
+        $this->server = new Swoole\Server('127.0.0.1',9501);
 
         $this->server->set(
             [
