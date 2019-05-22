@@ -62,10 +62,12 @@ class tcp_client{
     public function onReceive($server,$data)
     {
         echo "服务端返回的消息: $data" . PHP_EOL;
-        fwrite(STDOUT, "请输入消息:");
-        $msg = trim(fgets(STDIN));
+//        fwrite(STDOUT, "请输入消息:");
+//        $msg = trim(fgets(STDIN));
+        static $msg;
+        $msg++;
         $server->send($msg);
-        sleep(1);
+//        sleep(1);
     }
 
     public function onError($server)
