@@ -39,13 +39,17 @@ class TcpServer
         $this->server->set(
             [
                 'worker_num' => 6,
-                'max_request' =>10000
+                'max_request' =>10000,
+                'task_worker_num'=>4
             ]
         );
 
         $this->server->on('Start', array($this, 'onStart'));
         $this->server->on('Connect', array($this, 'onConnect'));
         $this->server->on('Receive', array($this, 'onReceive'));
+        $this->server->on('Task', array($this, 'onTask'));
+        $this->server->on('Finish', array($this, 'onFinish'));
+
         $this->server->on('Close', array($this, 'onClose'));
         $this->server->start();
 
@@ -66,12 +70,24 @@ class TcpServer
     {
         echo '收到客户端的信息 ----'.$reactor_id.'-----'.$data.PHP_EOL;
 //        sleep(1);
+        $task_id = $server->task($data);
         swoole_timer_after(2000,function () use ($server,$fd,$data){
             $server->send($fd, "我收到了你的消息 -- {$data}");
 
         });
-//        $server->send($fd, "Server: {$reactor_id} - {$fd}".$data);
 
+    }
+
+    public function onTask($serv, $task_id, $from_id, $data)
+    {
+        echo "执行[id=$task_id]的任务".PHP_EOL;
+        //返回任务执行的结果
+        $serv->finish("$data -> OK");
+    }
+
+    public function onFinish($serv, $task_id, $data)
+    {
+            echo $task_id.'的任务over'.PHP_EOL;
     }
 
     public function onClose($server,$fd)

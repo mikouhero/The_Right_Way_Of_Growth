@@ -67,7 +67,7 @@ class tcp_client{
         static $msg;
         $msg++;
         $server->send($msg);
-//        sleep(1);
+        sleep(1);
     }
 
     public function onError($server)
