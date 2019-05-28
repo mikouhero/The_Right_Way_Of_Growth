@@ -63,21 +63,29 @@ class Server
         $this->server->on('Receive',[$this,'onReceive']);
         $this->server->on('Close',[$this,'onClose']);
 
-
+        $this->master_pid();
     }
 
     public function onConnect($server,$fd,$reactor_id)
     {
         echo '连接成功'.PHP_EOL;
-        $this->send($server,$fd,$reactor_id);
+        $this->send($this->server,$fd,$reactor_id,'连接消息');
 
         $this->getClientInfo($server,$fd,0,false);
+        $this->getClientList();
     }
 
     public function onReceive($server,$fd,$reactor_id,$data)
     {
         echo '接收成功'.PHP_EOL;
-        $this->send($server,$fd,$reactor_id);
+        $this->send($server,$fd,$reactor_id,'你发送的是'.$data);
+//        $this->sendfile($server,$fd,$reactor_id);
+
+        static $i=0;
+        $i++;
+        if($i>5){
+            $this->pause($fd);
+        }
     }
 
     public function onClose($server,$fd)
@@ -86,17 +94,49 @@ class Server
     }
 
     //发送消息
-    public function send($server,$fd,$reactor_id)
+    public function send($server,$fd,$reactor_id,$msg)
     {
-        $server->send($fd,'heh');
+        $server->send($fd,$msg);
     }
+
+
+    public function sendfile($server,$fd,$reactor_id)
+    {
+        $server->sendfile($fd,'./1.txt');
+    }
+
+
 
     // 获取客户端信息
     public function getClientInfo($server,$fd,$extraDdata=0,$ignoreError=false)
     {
         $client = $server->getClientInfo($fd,$extraDdata,$ignoreError);
-        var_dump($client);
+//        var_dump($client);
     }
+
+    public function pause($fd)
+    {
+        $this->server->pause($fd);
+    }
+
+    public function resume($fd)
+    {
+        $this->server->resume($fd);
+
+    }
+
+    public function getClientList()
+    {
+        $list = $this->server->getClientList();
+        var_dump($list);
+
+    }
+
+    public function master_pid()
+    {
+        echo $this->server->master_pid;
+    }
+
 
 }
 

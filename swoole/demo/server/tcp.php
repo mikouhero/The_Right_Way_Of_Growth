@@ -70,11 +70,11 @@ class TcpServer
     {
         echo '收到客户端的信息 ----'.$reactor_id.'-----'.$data.PHP_EOL;
 //        sleep(1);
-        $task_id = $server->task($data);
-        swoole_timer_after(2000,function () use ($server,$fd,$data){
+//        $task_id = $server->task($data);
+//        swoole_timer_after(2000,function () use ($server,$fd,$data){
             $server->send($fd, "我收到了你的消息 -- {$data}");
-
-        });
+//
+//        });
 
     }
 

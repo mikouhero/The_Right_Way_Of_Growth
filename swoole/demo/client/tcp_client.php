@@ -64,7 +64,7 @@ class tcp_client{
         echo "服务端返回的消息: $data" . PHP_EOL;
 //        fwrite(STDOUT, "请输入消息:");
 //        $msg = trim(fgets(STDIN));
-        static $msg;
+        static $msg=1;
         $msg++;
         $server->send($msg);
         sleep(1);
@@ -81,6 +81,7 @@ class tcp_client{
         echo "Connection close\n";
 
     }
+
 }
 
 $client = new tcp_client();
