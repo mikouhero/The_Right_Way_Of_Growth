@@ -86,7 +86,7 @@ class Client
         echo "Dollars : $ ".$this->makeDollarRequest($this->dollarRequest);
     }
 
-    // 
+    //
     private function makeAdapterRequest(ITarget $req)
     {
         return $req->requestCalc(40,50);
