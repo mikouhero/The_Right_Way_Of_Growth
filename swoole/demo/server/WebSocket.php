@@ -41,7 +41,7 @@ class WebSocket
 
 $ws  = new WebSocket();
 
-$ws = new swoole_websocket_server("0.0.0.0", 9504);
+//$ws = new swoole_websocket_server("0.0.0.0", 9504);
 
 //监听WebSocket连接打开事件
 //$ws->on('open', function ($ws, $request) {

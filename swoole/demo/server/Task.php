@@ -30,3 +30,15 @@ $serv->on('finish', function ($serv, $task_id, $data) {
 });
 
 $serv->start();
+
+
+class Task
+{
+    public function __construct()
+    {
+        $this->http = new swoole_http_server('127.0.0.1',9501);
+
+
+    }
+
+}
