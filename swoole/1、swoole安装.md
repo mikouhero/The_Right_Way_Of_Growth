@@ -33,7 +33,7 @@ sudo apt-get install libreadline6 libreadline6-dev -y
 > source .bash_profile 使文件生效  
 > php.ini 文件可以在安装包内copy  
 > 使用 php -i|grep php.ini  将php.ini文件放在指定文件  
-
+> export PATH=$PATH:/home/work/study/soft/php/bin/php
 
 ##  通过phpize为php在不重新编译php情况下安装openssl  
 >php源码路径：/home/work/study/softpackage/php-7.3.5 
