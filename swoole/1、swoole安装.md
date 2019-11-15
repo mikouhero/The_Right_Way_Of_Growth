@@ -1,8 +1,10 @@
-# php 源码安装
+### php 源码安装
 
-## php 源码安装
->php.net 下载最新版本 
-wget https://www.php.net/distributions/php-7.3.5.tar.bz2  
+#### php 源码安装
+> php.net 下载最新版本 
+
+`wget https://www.php.net/distributions/php-7.3.5.tar.bz2`
+
 >  解压文件   
 >  tar -xvjf php...   
 > 进入解压文件内  将php 安装在指ope定文件 执行 ./configure --prefix=/home/.....
