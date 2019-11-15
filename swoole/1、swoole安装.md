@@ -1,29 +1,31 @@
 #### PHP源码编译安装[Ubuntu环境下]
 
-* php.net 下载最新版本
+> 运行目录：`~`，即家目录，全称：`/home/`，昵称：`$HMOE`
+> 安装目录：`~/work/study/soft/php`，PHP安装路径文件夹
+
+* 下载最新版本
 
 ```
-wget https://www.php.net/distributions/php-7.3.5.tar.bz2
+[michael@Ubuntu]$ wget https://www.php.net/distributions/php-7.3.5.tar.bz2
 ```
 
 * 解压文件
 
 ```
-tar -xvjf php-7.3.5.tar.bz2
+[michael@Ubuntu]$ tar -xvjf php-7.3.5.tar.bz2
 ```
 
 * 进入解压文件内
 
 ```
-cd php-7.3.5/
+[michael@Ubuntu]$ cd php-7.3.5/
 ```
 
-* 将php安装在指ope定文件执行
+* 将php安装在指定文件，执行
 
 ```
-./configure --prefix=/home/path/
+[michael@Ubuntu]$ ./configure --prefix=~/work/study/soft/php
 ```
-
 
 > 确保`gcc` 和 `libxml2-dev`、`autoconf`、`openssl`、`openssl-dev`、`libssl-dev`有安装，否则会出现类似下图错误   
 
@@ -32,59 +34,79 @@ cd php-7.3.5/
 > 安装以上扩展请执行：
 
 ```
-sudo apt-get install libxml2-dev -y
-sudo apt-get install gcc  -y 
-sudo apt-get install build-essential -y
-sudo apt-get install openssl -y 
-sudo apt-get install libssl-dev -y
+[michael@Ubuntu]$ sudo apt-get -y install gcc libxml2-dev autoconf openssl openssl-dev libssl-dev 
+``` 
+
+> 其他安装请分别执行：
+
+```
+sudo apt-get install curl -y
 sudo apt-get install make -y
-sudo apt-get install curl -y 
-sudo apt-get install libcurl4-gnutls-dev -y
+sudo apt-get install libpng-dev -y
 sudo apt-get install libjpeg-dev -y
-sudo apt-get install libpng-dev -y 
-sudo apt-get install libmcrypt-dev -y 
+sudo apt-get install libmcrypt-dev -y
+sudo apt-get install build-essential -y
+sudo apt-get install libcurl4-gnutls-dev -y
 sudo apt-get install libreadline6 libreadline6-dev -y
 ```
 
-* 编译
+* 编译安装
 
 ```
-sudo make && sudo make install
+[michael@Ubuntu]$  sudo make && sudo make install
 ```
 
 * 验证查看安装的扩展
 
 ```
-/bin/php -m
+[michael@Ubuntu]$ ~/work/study/soft/php/bin/php -m
 ```
  
 * 设置别名
 
-```
-vim $HOME/.bash_profile
-```
-
-or
-
-```
-sudo vim $HOME/profile
-```
-
-> i插入模式，shift+g跳转到末尾，新增：
+> 如果想让命令全局生效的话：
+> bash用户编辑`~/.bash_profile`，[UNIX通用命令文件]
+> zsh用户编辑`~/.zshrc`，[需安装，高本版Ubuntu自带]
+> 如果只是想当前用户生效的话，编辑`~/profile`
 
 ```
-alias php=/home/work/study/soft/php/bin/php
+[michael@Ubuntu]$ sudo vim ~/.bash_profile
+```
+
+> shift+g跳转到末尾，i插入模式，新增：
+
+```
+alias php=~/work/study/soft/php/bin/php
+```
+
+> 如果你觉得编辑太麻烦，请执行：
+
+```
+[michael@Ubuntu]$ echo "alias php=~/work/study/soft/php/bin/php" >> ~/.bash_profile
+```
+
+* 加入全局变量
+```
+[michael@Ubuntu]$ echo "export PATH=$PATH:~/work/study/soft/php/bin/php" >> ~/.bash_profile
 ```
 
 * 加载文件使之生效
 
 ```
-source ~/.bash_profile
+[michael@Ubuntu]$ source ~/.bash_profile
 ```
 
-> php.ini 文件可以在安装包内copy  
-> 使用 php -i|grep php.ini  将php.ini文件放在指定文件  
-> export PATH=$PATH:/home/work/study/soft/php/bin/php
+* 查看php.ini的路径
+
+```
+[michael@Ubuntu]$ php -i|grep php.ini
+```
+
+> /**
+>  *
+>  * 剩下你自己排版吧
+>  *
+>  */
 
 ##  通过phpize为php在不重新编译php情况下安装openssl  
 >php源码路径：/home/work/study/softpackage/php-7.3.5 
