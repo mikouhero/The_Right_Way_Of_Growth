@@ -77,12 +77,8 @@ sudo apt-get install libreadline6 libreadline6-dev -y
 [michael@Ubuntu]$ sudo vim ~/.bash_profile
 ```
 
-> shift+g跳转到末尾，i插入模式，新增：
-
-```
-alias php=~/work/study/soft/php/bin/php
-```
-
+> `shift` + `g` 跳转到末尾，`i`插入模式，新增：`alias php=~/work/study/soft/php/bin/php`
+>
 > 如果你觉得编辑太麻烦，请执行：
 
 ```
