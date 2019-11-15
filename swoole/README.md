@@ -54,7 +54,7 @@ sudo apt-get install libreadline6 libreadline6-dev -y
 * 编译安装
 
 ```
-[michael@Ubuntu]$  sudo make && sudo make install
+[michael@Ubuntu]$ sudo make && sudo make install
 ```
 
 * 验证查看安装的扩展
