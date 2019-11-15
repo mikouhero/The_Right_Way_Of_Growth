@@ -1,6 +1,7 @@
 ### 源码编译安装PHP[Ubuntu环境下]
 
 > 运行目录：`~`，即家目录，全称：`/home/`，昵称：`$HMOE`
+>
 > 安装目录：`~/work/study/soft/php`，PHP安装路径文件夹
 
 * 下载最新版本
@@ -65,11 +66,11 @@ sudo apt-get install libreadline6 libreadline6-dev -y
 * 设置别名
 
 > 如果想让命令全局生效的话：
-
+>
 > bash用户编辑`~/.bash_profile`，[UNIX通用命令文件]
-
+>
 > zsh用户编辑`~/.zshrc`，[需安装，高本版Ubuntu自带]
-
+>
 > 如果只是想当前用户生效的话，编辑`~/profile`
 
 ```
