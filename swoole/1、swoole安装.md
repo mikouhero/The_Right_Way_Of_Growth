@@ -1,4 +1,4 @@
-#### PHP源码编译安装[Ubuntu环境下]
+### 源码编译安装PHP[Ubuntu环境下]
 
 > 运行目录：`~`，即家目录，全称：`/home/`，昵称：`$HMOE`
 > 安装目录：`~/work/study/soft/php`，PHP安装路径文件夹
@@ -27,7 +27,7 @@
 [michael@Ubuntu]$ ./configure --prefix=~/work/study/soft/php
 ```
 
-> 确保`gcc` 和 `libxml2-dev`、`autoconf`、`openssl`、`openssl-dev`、`libssl-dev`有安装，否则会出现类似下图错误   
+> 确保`gcc`、`libxml2-dev`、`autoconf`、`openssl`、`openssl-dev`和`libssl-dev`已安装，否则会出现类似下图错误  
 
 ![](./image/1.png)
 
@@ -65,8 +65,11 @@ sudo apt-get install libreadline6 libreadline6-dev -y
 * 设置别名
 
 > 如果想让命令全局生效的话：
+
 > bash用户编辑`~/.bash_profile`，[UNIX通用命令文件]
+
 > zsh用户编辑`~/.zshrc`，[需安装，高本版Ubuntu自带]
+
 > 如果只是想当前用户生效的话，编辑`~/profile`
 
 ```
@@ -102,11 +105,7 @@ alias php=~/work/study/soft/php/bin/php
 [michael@Ubuntu]$ php -i|grep php.ini
 ```
 
-> /**
->  *
->  * 剩下你自己排版吧
->  *
->  */
+---
 
 ##  通过phpize为php在不重新编译php情况下安装openssl  
 >php源码路径：/home/work/study/softpackage/php-7.3.5 
