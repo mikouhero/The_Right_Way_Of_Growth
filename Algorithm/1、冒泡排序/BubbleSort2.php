@@ -5,8 +5,8 @@
         $len = count($array);
 
         for ( $i=1; $i<$len; $i++ ) {
-              for($j=$len-1;$j>=$i;$j--) {  // 注意 j 是从后往前循环
-                  if($array[$j] > $array[$j+1]) {  // 如果前者者大于后者
+              for($j=$len-1;$j>=$i; $j-- ){
+                  if( $array[$j] > $array[$j+1]) {
                       $temp = $array[$i];
                       $array[$i] = $array[$j];
                       $array[$j] = $temp;
