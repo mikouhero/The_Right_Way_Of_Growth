@@ -34,3 +34,25 @@ func BubbleSort2(arr []int)  {
 	}
 	fmt.Println(arr)
 }
+
+func BubbleSort3() {
+	a := []int{2, 1, 3, 4, 5, 6, 7, 8, 9}
+
+	length := len(a)
+
+	for i := 0; i < length-1; i++ {
+		flag := true
+		for j := 0; j < length-1; j++ {
+
+			if a[j] > a[j+1] {
+				a[j], a[j+1] = a[j+1], a[j]
+				flag =false
+			}
+		}
+		if flag {
+			break
+		}
+	}
+
+	fmt.Println(a)
+}
