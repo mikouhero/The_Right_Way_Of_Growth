@@ -1,1 +1,60 @@
+# 选择排序
 
+- 基本思想 ：假定找到数组中最小的一个数，与后续的的数据比较，如果假定的大于比较中的数 将假定的数的键更新
+
+
+```
+9, 1, 5, 8, 3, 7, 6, 4, 2
+
+[1 9 5 8 3 7 6 4 2]
+[1 2 5 8 3 7 6 4 9]
+[1 2 3 8 5 7 6 4 9]
+[1 2 3 4 5 7 6 8 9]
+[1 2 3 4 5 7 6 8 9]
+[1 2 3 4 5 6 7 8 9]
+[1 2 3 4 5 6 7 8 9]
+
+```
+
+
+function select($a)
+{
+
+    $len = count($a);
+
+    for ($i = 0; $i < $len; $i++) {
+        $min = $i;
+        for ($j = $i+1; $j < $len; $j++) {
+            if ($a[$min] > $a[$j]) {
+                $min = $j;
+            }
+        }
+        if ($min != $i) {
+            $tmp     = $a[$min];
+            $a[$min] = $a[$i];
+            $a[$i]   = $tmp;
+        }
+        print_r($a);
+
+    }
+}
+
+
+
+
+func selectSort() {
+	a := []int{9, 1, 5, 8, 3, 7, 6, 4, 2}
+	length := len(a)
+	for i := 0; i < length; i++ {
+		min := i
+		for j := i + 1; j < length; j++ {
+			if a[min] > a[j] {
+				min = j
+			}
+		}
+		if min != i {
+			a[min], a[i] = a[i], a[min]
+		}
+		fmt.Println(a)
+	}
+}
