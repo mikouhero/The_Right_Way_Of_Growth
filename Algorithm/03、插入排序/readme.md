@@ -7,5 +7,7 @@
 > 外循环到 4  ，3 5 4 6 2  内循环继续 3 4 5 6 2 
 > 到2  34526  34356 32456 23456 
 
-[php 实现](./insertSoct.php)
+[php 实现](./insertSort.php)
+
+
 [go实现](./insert.go)
