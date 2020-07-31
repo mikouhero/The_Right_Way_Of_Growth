@@ -58,7 +58,7 @@ func quick2(arr []int, left, right int) {
 		arr[i], arr[j] = arr[j], arr[i]
 	}
 
-	// 将 参照值移到游标相遇点
+	// 将 参照值移到游标相遇点, 参照值与游标值互换位置
 	arr[left] = arr[i]
 	arr[i] = temp
 	// 递归，左右两侧分别排序
