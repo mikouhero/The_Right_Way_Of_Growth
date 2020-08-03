@@ -30,4 +30,4 @@ gap 2 分成两组
 
 ```
 
-[php实现](!./sheel.php)
+[php实现](!./shell.php)
