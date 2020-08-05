@@ -6,3 +6,5 @@
 > 合并（Combine）：合并两个已排序的子序列已得到排序结果。   
 
 [PHP实现](./merge.php)
+
+[go实现](./merge.go)
