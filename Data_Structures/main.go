@@ -2,10 +2,26 @@ package main
 
 import (
 	"./ArrayList"
+	"./StackArray"
 	"fmt"
 )
 
-func main() {
+func main()  {
+	mystack := StackArray.NewStack()
+	mystack.Push(1)
+	mystack.Push(2)
+	mystack.Push(3)
+	mystack.Push(4)
+	fmt.Println(mystack.Size())
+	fmt.Println(mystack.IsFull())
+	fmt.Println(mystack.IsEmpty())
+	fmt.Println(mystack.Pop())
+	fmt.Println(mystack.Pop())
+
+
+
+}
+func main3() {
 	list := ArrayList.NewArrayList()
 
 	list.Append(1)
