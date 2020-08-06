@@ -25,7 +25,7 @@ func NewStack() *Stack {
 
 func (mystack *Stack) Clear() {
 	mystack.datasource = make([]interface{}, 0, 10)
-	mystack.capsize = 0
+	mystack.capsize = 10
 	mystack.currentsize = 0
 }
 func (mystack *Stack) Size() int {
