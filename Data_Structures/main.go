@@ -7,6 +7,26 @@ import (
 )
 
 func main()  {
+	mystack := ArrayList.NewArrayListStackX()
+	mystack.Push(1)
+	mystack.Push(2)
+	mystack.Push(3)
+	mystack.Push(4)
+	fmt.Println(mystack.Size())
+	fmt.Println(mystack.IsFull())
+	fmt.Println(mystack.IsEmpty())
+	//fmt.Println(mystack.Pop())
+	//fmt.Println(mystack.Pop())
+
+
+	for it := mystack.Myit;it.HasNext();{
+		fmt.Println(it.Next())
+	}
+
+
+}
+
+func main4()  {
 	mystack := StackArray.NewStack()
 	mystack.Push(1)
 	mystack.Push(2)
