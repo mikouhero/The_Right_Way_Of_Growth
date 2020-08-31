@@ -47,3 +47,22 @@ func (bst *BinaryTree) add(n *Node, data int) *Node {
 	}
 	return n
 }
+
+func (bst *BinaryTree) IsIn(data int) bool {
+	return bst.isin(bst.Root, data)
+}
+
+func (bst *BinaryTree) isin(n *Node, data int) bool {
+	if n == nil {
+		return false // 空树
+	}
+
+	if data == n.Data {
+		return true
+	} else if data < n.Data {
+		return bst.isin(n.Left, data)
+
+	} else {
+		return bst.isin(n.Right, data)
+	}
+}
