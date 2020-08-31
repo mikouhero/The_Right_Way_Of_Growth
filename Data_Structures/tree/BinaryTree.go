@@ -30,8 +30,9 @@ func (bst *BinaryTree) IsEmpty() bool {
 func (bst *BinaryTree) Add(data int) {
 	bst.Root = bst.add(bst.Root, data)
 }
+
 func (bst *BinaryTree) add(n *Node, data int) *Node {
-	if n == nil {
+	if n == nil { // 根节点
 		bst.Size++
 		return &Node{
 			Data:  data,
