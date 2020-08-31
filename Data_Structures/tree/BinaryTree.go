@@ -67,3 +67,34 @@ func (bst *BinaryTree) isin(n *Node, data int) bool {
 		return bst.isin(n.Right, data)
 	}
 }
+
+
+func (bst *BinaryTree) FindMax() int {
+	if bst.Size == 0 {
+		panic("空树")
+	}
+	return bst.findmax(bst.Root).Data
+}
+
+func (bst *BinaryTree) findmax(n *Node) *Node {
+	if n.Right == nil {
+		return n
+	} else {
+		return bst.findmax(n.Right)
+	}
+}
+func (bst *BinaryTree) FindMix() int {
+	if bst.Size == 0 {
+		panic("空树")
+	}
+	return bst.findmix(bst.Root).Data
+}
+
+func (bst *BinaryTree) findmix(n *Node) *Node {
+	if n.Left == nil {
+		return n
+	} else {
+		return bst.findmax(n.Left)
+	}
+}
+
