@@ -97,7 +97,7 @@ func (bst *BinaryTree) findmix(n *Node) *Node {
 	if n.Left == nil {
 		return n
 	} else {
-		return bst.findmax(n.Left)
+		return bst.findmix(n.Left)
 	}
 }
 
@@ -144,9 +144,86 @@ func (bst *BinaryTree) postorder(node *Node) {
 
 }
 
+func (bst *BinaryTree) RemoveMin() int {
+	ret := bst.FindMix()
+	bst.Root = bst.removemin(bst.Root)
+	return ret
+}
+
+func (bst *BinaryTree) removemin(n *Node) *Node {
+	if n.Left == nil {
+		//删除
+		rightNode := n.Right // 备份右边的节点
+		bst.Size--
+		return rightNode
+	}
+	n.Left = bst.removemin(n.Left)
+	return n
+}
+
+func (bst *BinaryTree) RemoveMax() int {
+	ret := bst.FindMax()
+	bst.Root = bst.removemax(bst.Root)
+	return ret
+}
+
+func (bst *BinaryTree) removemax(n *Node) *Node {
+	if n.Right == nil {
+		//删除
+		leftNode := n.Left // 备份左边边的节点
+		bst.Size--
+		return leftNode
+	}
+	n.Right = bst.removemin(n.Right)
+	return n
+}
+
+func (bst *BinaryTree) Remove(data int) {
+	bst.Root = bst.remove(bst.Root, data)
+}
+
+func (bst *BinaryTree) remove(n *Node, data int) *Node {
+
+	if n == nil {
+		return nil
+	}
+	if data < n.Data {
+		n.Left = bst.remove(n.Left, data)
+		return n
+	} else if data > n.Data {
+
+		n.Right = bst.remove(n.Right, data)
+		return n
+	} else {
+		if n.Left == nil {
+			rightNode := n.Right // 备份右边节点
+			n.Right = nil        // 处理节点返回
+			bst.Size--           // 删除
+			return rightNode
+		}
+		if n.Right == nil {
+			leftNode := n.Left
+			n.Left = nil
+			bst.Size--
+			return leftNode
+		}
+
+		// 左右都不为空
+
+		oknode := bst.findmix(n.Right)
+		oknode.Right = bst.removemin(n.Right)
+		oknode.Left = n.Left
+
+		n.Left = nil
+		n.Right = nil
+		return oknode
+
+	}
+}
+
 func main() {
 	bst := NewBinaryTree()
-	bst.Size=7
+	bst.Size = 7
 	node1 := &Node{4, nil, nil}
 	node2 := &Node{2, nil, nil}
 	node3 := &Node{6, nil, nil}
@@ -162,12 +239,17 @@ func main() {
 	node3.Left = node6
 	node3.Right = node7
 	/*
-			4
-		2 	  6
-	1    3  5   7
-	 */
+				4
+			2 	  6
+		1    3  5   7
+	*/
 
 	//bst.PreOrder()	// 4 2 1 3 6 5 7
 	//bst.PostOrder()  // 1 3 2 5 7 6 4
 	//bst.InOrder()  // 1 2 3 4 5 6 7
+
+	//removemin := bst.RemoveMin()
+	//fmt.Println("min",removemin)
+	//bst.InOrder()
+
 }
