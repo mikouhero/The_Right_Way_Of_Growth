@@ -44,3 +44,18 @@ pm.max_requests = 10240
 - Nginx会发现与自己通信的连接断掉了，就会返回给客户端502错误。
 
 [相关文档](https://www.kancloud.cn/digest/php-src/136260)
+
+
+### 502 504 错误产生以及解决方法
+
+
+- 502 表示网关错误，当 PHP-CGI 得到一个无效响应，网关就会输出这个错误
+
+> - php.ini 的 memory_limit 过小 
+> - php-fpm.conf 中 max_children、max_requests 设置不合理  
+> - php-fpm.conf 中 request_terminate_timeout、max_execution_time 设置不合理   
+> - php-fpm 进程处理不过来，进程数不足、脚本存在性能问题  
+
+- 504 表示网关超时，PHP-CGI 没有在指定时间响应请求，网关将输出这个错误
+
+> Nginx+PHP 架构，可以调整 FastCGI 超时时间，fastcgi_connect_timeout、fastcgi_send_timeout、fastcgi_read_timeout
