@@ -7,7 +7,7 @@ pm = static/dynamic,标识fpm 子进程的产生模式
 
 static(静态)：表示fpm允运行时直接fork 出pm.max_children 个worker 进程
 
-dynamic(动态)：表示运行时fork 出start_servers 个进程，随着负载的情况，动态的调整 ，最多不超过 max_children个 进程
+dynamic(动态)：表示运行时fork 出start_servers 个进程，随着负载的情况，动态的调整 ，最多不超过 max_spare_servers 个 进程
 
 `一般推荐用static，优点是不用动态的判断负载情况，提升性能，缺点是多占用些系统内存资源。`
 
