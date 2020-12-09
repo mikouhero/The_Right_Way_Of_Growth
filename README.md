@@ -16,9 +16,9 @@
 
 - PHP
   + 基础
-    * [数组处理函数]()
-    * [魔术方法]()
-    * [超全局变量]()
+    * [数组处理函数](https://www.php.net/manual/zh/book.array.php)
+    * [魔术方法](https://www.php.net/manual/zh/language.oop5.magic.php)
+    * [预定义变量](https://www.php.net/manual/zh/reserved.variables.php)
     * 接口与抽象类的区别
     * static、self与$this的区别
     * 传值与引用
