@@ -19,7 +19,7 @@
     * [数组处理函数](https://www.php.net/manual/zh/book.array.php)
     * [魔术方法](https://www.php.net/manual/zh/language.oop5.magic.php)
     * [预定义变量](https://www.php.net/manual/zh/reserved.variables.php)
-    * 接口与抽象类的区别
+    * [接口与抽象类的区别](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/PHP/%E5%9F%BA%E7%A1%80/02%E3%80%81%E6%8E%A5%E5%8F%A3%E4%B8%8E%E6%8A%BD%E8%B1%A1%E7%B1%BB.md)
     * static、self与$this的区别
     * 传值与引用
     * include、require、include_once、require_once 的区别
