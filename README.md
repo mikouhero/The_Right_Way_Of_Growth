@@ -37,7 +37,7 @@
     * php.ini 配置
     * php-fpm.conf 配置
     * php与nginx的通信方式
-    * php-fpm与nginxyouh
+    * php-fpm与nginx 优化
     * php 内存管理
         
   + 框架思想
@@ -89,7 +89,7 @@
     * 水平分表
   + sql优化
   + 主从配置
-- Redis 🚗
+- Redis 
   + 常见用途
 
   + Redis的基础数据结构
