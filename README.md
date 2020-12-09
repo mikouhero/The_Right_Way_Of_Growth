@@ -1,4 +1,4 @@
-<h1 align="center">《PHPer、Gopher成长之路》V1.10</h1>
+<h1 align="center">《The Right Way Of Growth》V1.10</h1>
 
 
 
