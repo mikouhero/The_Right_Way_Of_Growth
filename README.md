@@ -171,10 +171,27 @@
   + Redis事务
   + Redis主从
   + Redis哨兵
+  
+
+- Nginx 
+   + nginx 安装
+   + nginx 命令行常用命令
+   + nginx 与 php 通信
+   + nginx 配置文件详解
+   + nginx 配置动静分离
+   + nginx 配置反向代理
+   + nginx 配置负载均衡
+   + nginx 配置跨域
+   + nginx 配置跨域
+     * 日志切割脚本
+     * 图片防盗链
+     * nginx 访问控制
+     * 丢弃不受支持的文件扩展名的请求
+
        
     
 - Linux
-- Nginx
+
 
 
 - 设计模式
