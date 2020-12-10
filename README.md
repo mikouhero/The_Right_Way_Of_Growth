@@ -20,7 +20,7 @@
     * [魔术方法](https://www.php.net/manual/zh/language.oop5.magic.php)
     * [预定义变量](https://www.php.net/manual/zh/reserved.variables.php)
     * [接口与抽象类的区别](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/PHP/%E5%9F%BA%E7%A1%80/02%E3%80%81%E6%8E%A5%E5%8F%A3%E4%B8%8E%E6%8A%BD%E8%B1%A1%E7%B1%BB.md)
-    * static、self与$this的区别
+    * [static、self与$this的区别](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/PHP/%E5%9F%BA%E7%A1%80/05%E3%80%81static%E3%80%81self%E4%B8%8E$this%E7%9A%84%E5%8C%BA%E5%88%AB%20%E4%B8%8E%20%E5%90%8E%E6%9C%9F%E9%9D%99%E6%80%81%E7%BB%91%E5%AE%9A.md)
     * 传值与引用
     * include、require、include_once、require_once 的区别
     * 类的静态调用与实例化调用
