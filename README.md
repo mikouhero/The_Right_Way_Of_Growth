@@ -21,24 +21,24 @@
     * [预定义变量](https://www.php.net/manual/zh/reserved.variables.php)
     * [接口与抽象类的区别](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/PHP/%E5%9F%BA%E7%A1%80/02%E3%80%81%E6%8E%A5%E5%8F%A3%E4%B8%8E%E6%8A%BD%E8%B1%A1%E7%B1%BB.md)
     * [static、self与$this的区别](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/PHP/%E5%9F%BA%E7%A1%80/05%E3%80%81static%E3%80%81self%E4%B8%8E$this%E7%9A%84%E5%8C%BA%E5%88%AB%20%E4%B8%8E%20%E5%90%8E%E6%9C%9F%E9%9D%99%E6%80%81%E7%BB%91%E5%AE%9A.md)
-    * 传值与引用
-    * include、require、include_once、require_once 的区别
-    * 类的静态调用与实例化调用
+    * [引用](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/PHP/%E5%9F%BA%E7%A1%80/04%E3%80%81%E5%BC%95%E7%94%A8.md)
+    * [include、require、include_once、require_once 的区别](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/PHP/%E5%9F%BA%E7%A1%80/01%E3%80%81include%E4%B8%8Erequire%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3.md)
+    * [类的静态调用与实例化调用](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/PHP/%E5%9F%BA%E7%A1%80/06%E3%80%81%E7%B1%BB%E7%9A%84%E9%9D%99%E6%80%81%E8%B0%83%E7%94%A8%E5%92%8C%E5%AE%9E%E4%BE%8B%E5%8C%96%E8%B0%83%E7%94%A8.md)
     * 会话管理
     
   + 进阶
-    * 回调与闭包
-    * PHP运行模式
+    * [回调与闭包]
+    * [PHP运行模式](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/PHP/%E5%86%85%E6%A0%B8/1%E3%80%81PHP%E5%9B%9B%E7%A7%8D%E8%BF%90%E8%A1%8C%E6%A8%A1%E5%BC%8F.md)
         - CGI
         - Fastcgi模式
         - 模块模式
         - php-cli模式
-    * GC机制
-    * php.ini 配置
-    * php-fpm.conf 配置
-    * php与nginx的通信方式
-    * php-fpm与nginx 优化
-    * php 内存管理
+    * [GC机制](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/PHP/%E5%86%85%E6%A0%B8/2%E3%80%81PHP%E7%9A%84GC%E6%9C%BA%E5%88%B6.md)
+    * [php.ini 配置](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/PHP/%E5%86%85%E6%A0%B8/3%E3%80%81php.ini%E9%85%8D%E7%BD%AE.md)
+    * [php-fpm.conf 配置](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/PHP/%E5%86%85%E6%A0%B8/4%E3%80%81php-fpm-conf.md)
+    * [php与nginx的通信方式](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/PHP/%E5%86%85%E6%A0%B8/5%E3%80%81PHP%E4%B8%8Enginx%E7%9A%84%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F.md)
+    * [php-fpm与nginx 优化](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/PHP/%E5%86%85%E6%A0%B8/6%E3%80%81php-fpm%E4%B8%8Enginx%E4%BC%98%E5%8C%96.md)
+    * [php 内存管理](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/PHP/%E5%86%85%E6%A0%B8/7%E3%80%81%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.md)
         
   + 框架思想
     * 服务容器
