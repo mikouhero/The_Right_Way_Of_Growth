@@ -24,7 +24,7 @@
     * [引用](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/PHP/%E5%9F%BA%E7%A1%80/04%E3%80%81%E5%BC%95%E7%94%A8.md)
     * [include、require、include_once、require_once 的区别](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/PHP/%E5%9F%BA%E7%A1%80/01%E3%80%81include%E4%B8%8Erequire%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3.md)
     * [类的静态调用与实例化调用](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/PHP/%E5%9F%BA%E7%A1%80/06%E3%80%81%E7%B1%BB%E7%9A%84%E9%9D%99%E6%80%81%E8%B0%83%E7%94%A8%E5%92%8C%E5%AE%9E%E4%BE%8B%E5%8C%96%E8%B0%83%E7%94%A8.md)
-    * 会话管理
+    * [会话管理](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/PHP/%E5%9F%BA%E7%A1%80/07%E3%80%81%E4%BC%9A%E8%AF%9D%E7%AE%A1%E7%90%86.md)
     
   + 进阶
     * [回调与闭包]
