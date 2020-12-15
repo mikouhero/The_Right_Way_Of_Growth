@@ -60,7 +60,7 @@
   + [事务](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/02%E3%80%81%E4%BA%8B%E5%8A%A1.md)
     * 原子性（Atomicity）
     * 一致性（Consistency）
-    * 隔离性（Isolation）
+    * [隔离性（Isolation）](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/03%E3%80%81%E4%BA%8B%E5%8A%A1%E7%9A%84%E9%9A%94%E7%A6%BB%E6%80%A7.md)
       - READ UNCOMMITTED:未提交读
       - READ COMMITTED：提交读/不可重复读
       - REPEATABLE READ：可重复读(MYSQL默认事务隔离级别)
