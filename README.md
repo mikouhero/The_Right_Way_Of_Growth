@@ -76,10 +76,10 @@
       - 唯一索引
       - 普通索引
       - 联合索引
-    * 覆盖索引
-    * 索引下推
-    * 回表
-    * 最左匹配原则
+      - 覆盖索引
+      - 索引下推
+      - 回表
+      - 最左匹配原则
     * [依据是否聚簇区分](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/08%E3%80%81%E8%81%9A%E7%B0%87%E7%B4%A2%E5%BC%95%E4%B8%8E%E9%9D%9E%E8%81%9A%E7%B0%87%E7%B4%A2%E5%BC%95.md)
       - 聚簇索引
       - 非聚簇索引
