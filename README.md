@@ -66,11 +66,11 @@
       - REPEATABLE READ：可重复读(MYSQL默认事务隔离级别)
       - SERIALIZEABLE：可串行化
     * 持久性（Durability）
-    * 事务并发执行的问题
-    * MVCC (多版本并发控制)    
+    * [事务并发执行的问题](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/04%E3%80%81%E4%BA%8B%E5%8A%A1%E5%B9%B6%E5%8F%91%E6%89%A7%E8%A1%8C%E7%9A%84%E9%97%AE%E9%A2%98.md)
+    * [MVCC (多版本并发控制)](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/05%E3%80%81%20MVCC%EF%BC%88%E5%A4%9A%E7%89%88%E6%9C%AC%E5%B9%B6%E5%8F%91%E6%8E%A7%E5%88%B6%EF%BC%89.md)    
   + 索引
-    * 索引的基础知识
-    * 索引提高检索速度
+    * [索引的基础知识](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/06%E3%80%81%E7%B4%A2%E5%BC%95.md)
+    * [索引提高检索速度](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/07%E3%80%81%E7%B4%A2%E5%BC%95%E6%8F%90%E9%AB%98%E6%A3%80%E7%B4%A2%E9%80%9F%E5%BA%A6%20%E4%B8%8E%20%E9%99%8D%E4%BD%8E%E5%A2%9E%E5%88%A0%E6%94%B9%E7%9A%84%E9%80%9F%E5%BA%A6%20.md)
     * 建立表结构时添加的索引
       - 主键唯一索引
       - 唯一索引
@@ -80,7 +80,7 @@
     * 索引下推
     * 回表
     * 最左匹配原则
-    * 依据是否聚簇区分
+    * [依据是否聚簇区分](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/08%E3%80%81%E8%81%9A%E7%B0%87%E7%B4%A2%E5%BC%95%E4%B8%8E%E9%9D%9E%E8%81%9A%E7%B0%87%E7%B4%A2%E5%BC%95.md)
       - 聚簇索引
       - 非聚簇索引
     * 索引底层数据结构
