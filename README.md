@@ -71,7 +71,7 @@
   + 索引
     * [索引的基础知识](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/06%E3%80%81%E7%B4%A2%E5%BC%95.md)
     * [索引提高检索速度](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/07%E3%80%81%E7%B4%A2%E5%BC%95%E6%8F%90%E9%AB%98%E6%A3%80%E7%B4%A2%E9%80%9F%E5%BA%A6%20%E4%B8%8E%20%E9%99%8D%E4%BD%8E%E5%A2%9E%E5%88%A0%E6%94%B9%E7%9A%84%E9%80%9F%E5%BA%A6%20.md)
-    * 建立表结构时添加的索引
+    * [建立表结构时添加的索引](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/09%E3%80%81%E7%B4%A2%E5%BC%95%E7%B1%BB%E5%9E%8B.md)
       - 主键唯一索引
       - 唯一索引
       - 普通索引
@@ -107,12 +107,12 @@
     * filtered   
     * Extra
   + 锁
-    * 悲观锁与乐观锁
-    * 共享锁与排他锁
-    * 行锁与表锁
-    * 意向锁（InnoDB特有）
-    * 死锁
-    * 间隙锁
+    * [悲观锁与乐观锁](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/11%E3%80%81%E4%B9%90%E8%A7%82%E9%94%81%E4%B8%8E%E6%82%B2%E8%A7%82%E9%94%81.md)
+    * [共享锁与排他锁](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/12%E3%80%81%E5%85%B1%E4%BA%AB%E9%94%81%E5%92%8C%E6%8E%92%E5%AE%83%E9%94%81.md)
+    * [行锁与表锁](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/13%E3%80%81%E8%A1%A8%E9%94%81%E4%B8%8E%E8%A1%8C%E9%94%81.md)
+    * [意向锁（InnoDB特有）](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/14%E3%80%81%E6%84%8F%E5%90%91%E9%94%81%EF%BC%88InnoDB%20%E7%89%B9%E6%9C%89%EF%BC%89.md)
+    * [死锁](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/16%E3%80%81%E6%AD%BB%E9%94%81.md)
+    * [间隙锁](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/15%E3%80%81%E9%97%B4%E9%9A%99%E9%94%81.md)
     
   + log日志
     * redo log（物理日志）
