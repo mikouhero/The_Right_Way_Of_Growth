@@ -83,7 +83,7 @@
     * [依据是否聚簇区分](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/08%E3%80%81%E8%81%9A%E7%B0%87%E7%B4%A2%E5%BC%95%E4%B8%8E%E9%9D%9E%E8%81%9A%E7%B0%87%E7%B4%A2%E5%BC%95.md)
       - 聚簇索引
       - 非聚簇索引
-    * 索引底层数据结构
+    * [索引底层数据结构](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/10%E3%80%81%E7%B4%A2%E5%BC%95%E5%BA%95%E5%B1%82%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)
       - hash索引
       - b-tree索引
       - b+tree索引
