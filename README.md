@@ -114,7 +114,7 @@
     * [死锁](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/16%E3%80%81%E6%AD%BB%E9%94%81.md)
     * [间隙锁](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/15%E3%80%81%E9%97%B4%E9%9A%99%E9%94%81.md)
     
-  + log日志
+  + [log日志](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/17%E3%80%81%E6%97%A5%E5%BF%97.md)
     * redo log（物理日志）
     * undo log 
     * bin log
