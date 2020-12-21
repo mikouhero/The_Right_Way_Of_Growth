@@ -90,13 +90,13 @@
       - 有序数组索引
       - 跳表
       
-  + 优化器
+  + [优化器](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/19%E3%80%81%E4%BC%98%E5%8C%96%E5%99%A8.md)
     * IO 成本
     * 单表查询的成本
     * 多表查询的成本
     * index dive   
     
-  + Explain 
+  + [Explain](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/18%E3%80%81Explain.md) 
     * id 
     * select_type
     * table 
@@ -123,15 +123,15 @@
     * 水平分表
     
   + MySQL常见优化方式
-    * 优化的范围
+    * [优化的范围](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/21%E3%80%81MySQL%20%E5%B8%B8%E8%A7%81%E4%BC%98%E5%8C%96%E6%96%B9%E5%BC%8F%20%20%20-%20%20%E4%BC%98%E5%8C%96%E7%9A%84%E8%8C%83%E5%9B%B4%E6%9C%89%E5%93%AA%E4%BA%9B.md)
         - 应用程序
         - 数据库优化
-    * 优化维度
+    * [优化维度](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/21%E3%80%81MySQL%20%E5%B8%B8%E8%A7%81%E4%BC%98%E5%8C%96%E6%96%B9%E5%BC%8F%20%20%20-%20%20%E4%BC%98%E5%8C%96%E7%9A%84%E8%8C%83%E5%9B%B4%E6%9C%89%E5%93%AA%E4%BA%9B.md)
         - 硬件
         - 系统配置 
         - 数据库表结构
         - SQL 及索引
-    * 优化工具
+    * [优化工具](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/22%E3%80%81MySQL%20%E5%B8%B8%E8%A7%81%E4%BC%98%E5%8C%96%E6%96%B9%E5%BC%8F%20%20%20-%20%20%E4%BC%98%E5%8C%96%E5%B7%A5%E5%85%B7)
         - 数据库层面
         - 系统层面
     * 数据库优化
