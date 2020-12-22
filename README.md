@@ -118,7 +118,7 @@
     * redo log（物理日志）
     * undo log 
     * bin log
-  + 分表
+  + [分表](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/20%E3%80%81%E5%88%86%E8%A1%A8.md)
     * 垂直分表
     * 水平分表
     
@@ -134,7 +134,7 @@
     * [优化工具](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/22%E3%80%81MySQL%20%E5%B8%B8%E8%A7%81%E4%BC%98%E5%8C%96%E6%96%B9%E5%BC%8F%20%20%20-%20%20%E4%BC%98%E5%8C%96%E5%B7%A5%E5%85%B7)
         - 数据库层面
         - 系统层面
-    * 数据库优化
+    * [数据库优化](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/23%E3%80%81MySQL%20%E5%B8%B8%E8%A7%81%E4%BC%98%E5%8C%96%E6%96%B9%E5%BC%8F%20%20%20-%20%20%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BC%98%E5%8C%96.md)
         - SQL 优化方向
         - 架构优化方向
         - 数据库参数优化
