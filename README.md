@@ -154,13 +154,10 @@
     
   
 - Redis 
-  + Redis的基础数据结构
+  + [Redis的基础数据结构](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Redis/06%E3%80%81Redis%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)
   + 常见用途
   + Redis 过期的key 是怎么清除的？
   + Redis的性能为什么这么高？
-  + Linux中IO模型一共有哪些？
-  + 同步与异步的区别是什么？
-  + 阻塞与非阻塞的区别是什么？
   + 如何解决缓存与数据库的数据一致性问题？
   + 缓存穿透，雪崩，预热，更新，降级
   + Redis 持久化策略
