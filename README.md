@@ -116,8 +116,8 @@
     
   + [log日志](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/17%E3%80%81%E6%97%A5%E5%BF%97.md)
     * redo log（物理日志）
-    * undo log 
-    * bin log
+    * undo log (逻辑日志)
+    * bin log  （归档日志）
   + [分表](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/20%E3%80%81%E5%88%86%E8%A1%A8.md)
     * 垂直分表
     * 水平分表
