@@ -156,11 +156,11 @@
 - Redis 
   + [Redis的基础数据结构](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Redis/06%E3%80%81Redis%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.md)
   + 常见用途
-  + Redis 过期的key 是怎么清除的？
-  + Redis的性能为什么这么高？
-  + 如何解决缓存与数据库的数据一致性问题？
+  + [Redis 过期的key 是怎么清除的？](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Redis/01%E3%80%81Redis%E8%BF%87%E6%9C%9Fkey%E6%98%AF%E6%80%8E%E4%B9%88%E6%A0%B7%E6%B8%85%E7%90%86%E7%9A%84.md)
+  + [Redis的性能为什么这么高？](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Redis/03%E3%80%81Redis%E7%9A%84%E6%80%A7%E8%83%BD%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%99%E4%B9%88%E9%AB%98.md)
+  + [如何解决缓存与数据库的数据一致性问题？](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Redis/04%E3%80%81%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E7%BC%93%E5%AD%98%E4%B8%8E%E6%95%B0%E6%8D%AE%E4%B8%80%E8%87%B4%E6%80%A7%E9%97%AE%E9%A2%98.md)
   + 缓存穿透，雪崩，预热，更新，降级
-  + Redis 持久化策略
+  + [Redis 持久化策略](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Redis/05%E3%80%81Redis%E6%8C%81%E4%B9%85%E5%8C%96%E7%AD%96%E7%95%A5.md)
   + Redis集群
   + Redis事务
   + Redis主从
