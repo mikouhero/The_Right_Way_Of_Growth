@@ -149,7 +149,7 @@
     * 如何正确地显示随机消息？
     * 为什么表数据删掉一半，表文件大小不变？
     * [缓冲池](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/25%E3%80%81%E7%BC%93%E5%86%B2%E6%B1%A0.md)
-        
+    * [drop、delete与truncate分别在什么场景之下使用](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/26%E3%80%81drop%E3%80%81delete%E4%B8%8Etruncate%E5%88%86%E5%88%AB%E5%9C%A8%E4%BB%80%E4%B9%88%E5%9C%BA%E6%99%AF%E4%B9%8B%E4%B8%8B%E4%BD%BF%E7%94%A8%EF%BC%9F.md)    
   + 主从配置
     
   
