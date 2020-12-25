@@ -143,7 +143,7 @@
   * 存储过程
   
   * 常见问题
-    * 一条SQL语句执行得很慢的原因有哪些？  
+    * [一条SQL语句执行得很慢的原因有哪些？](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/27%E3%80%81%E4%B8%80%E6%9D%A1SQL%E8%AF%AD%E5%8F%A5%E6%89%A7%E8%A1%8C%E5%BE%97%E5%BE%88%E6%85%A2%E7%9A%84%E5%8E%9F%E5%9B%A0%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F.md)  
     * [MySQL的Limit性能问题](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/24%E3%80%81MySQL%E7%9A%84Limit%E6%80%A7%E8%83%BD%E9%97%AE%E9%A2%98.md)
     * [drop、delete与truncate分别在什么场景之下使用？](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/MySQL/26%E3%80%81drop%E3%80%81delete%E4%B8%8Etruncate%E5%88%86%E5%88%AB%E5%9C%A8%E4%BB%80%E4%B9%88%E5%9C%BA%E6%99%AF%E4%B9%8B%E4%B8%8B%E4%BD%BF%E7%94%A8%EF%BC%9F.md)
     * 如何正确地显示随机消息？
