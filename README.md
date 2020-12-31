@@ -233,7 +233,15 @@
 - 数据结构 
   + 数组
   + 堆/栈
+  + [跳表]https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Data_Structures/SkipList/01.%E8%B7%B3%E8%A1%A8.md()
   + 树
+    - [树的性质](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Data_Structures/tree/01%E3%80%81%E6%A0%91.md)
+    - [二分搜索树](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Data_Structures/tree/02%E3%80%81%E4%BA%8C%E5%88%86%E6%90%9C%E7%B4%A2%E6%A0%91.md)
+    - [trie 字典树](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Data_Structures/tree/4%E3%80%81Trie%20%E5%AD%97%E5%85%B8%E6%A0%91.md)
+    - [AVL](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Data_Structures/tree/05%E3%80%81AVL%E6%A0%91.md)
+    - [2-3树](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Data_Structures/tree/06%E3%80%812-3%E6%A0%91.md)
+    - [红黑树](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Data_Structures/tree/07%E3%80%81%E7%BA%A2%E9%BB%91%E6%A0%91.md)
+    - [B 树 与 B+树](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Data_Structures/tree/08%E3%80%81%20B%20%E6%A0%91%20%E4%B8%8E%20B%2B%E6%A0%91.md)
   + 队列
   + 链表
   + 图
