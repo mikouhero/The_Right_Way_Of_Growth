@@ -233,7 +233,7 @@
 - 数据结构 
   + 数组
   + 堆/栈
-  + [跳表]https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Data_Structures/SkipList/01.%E8%B7%B3%E8%A1%A8.md()
+  + [跳表](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Data_Structures/SkipList/01.%E8%B7%B3%E8%A1%A8.md)
   + 树
     - [树的性质](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Data_Structures/tree/01%E3%80%81%E6%A0%91.md)
     - [二分搜索树](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Data_Structures/tree/02%E3%80%81%E4%BA%8C%E5%88%86%E6%90%9C%E7%B4%A2%E6%A0%91.md)
