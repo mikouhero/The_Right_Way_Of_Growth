@@ -170,8 +170,8 @@
 
 - Nginx 
    + [nginx 安装](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Nginx/01%E3%80%81%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E.md)
+   + [配置](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Nginx/02%E3%80%81%E9%85%8D%E7%BD%AE.md.)
    + nginx 命令行常用命令
-   + nginx 与 php 通信
    + nginx 配置文件详解
    + nginx 配置动静分离
    + nginx 配置反向代理
