@@ -184,7 +184,7 @@
      * 丢弃不受支持的文件扩展名的请求
 
  - Linux 
-   + 常用命令
+   + [常用命令](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Linux/02%E3%80%81%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md)
    + 进程 
      * 进程管理[ps命令] 
      * 进程管理[top命令]
