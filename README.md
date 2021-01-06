@@ -191,7 +191,7 @@
      * 进程管理[kill命令]
      * 进程管理[进程优先级]
      * 进程管理[netstat命令]
-   + IO 模型
+   + [IO 模型](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Linux/03%E3%80%81IO%E6%A8%A1%E5%9E%8B.md)
    + 数据处理
    + 文件查找  
      
