@@ -185,14 +185,14 @@
 
  - Linux 
    + [常用命令](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Linux/02%E3%80%81%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md)
-   + 进程 
+   + [进程](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Linux/05%E3%80%81%E8%BF%9B%E7%A8%8B.md)
      * 进程管理[ps命令] 
      * 进程管理[top命令]
      * 进程管理[kill命令]
      * 进程管理[进程优先级]
      * 进程管理[netstat命令]
    + [IO 模型](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Linux/03%E3%80%81IO%E6%A8%A1%E5%9E%8B.md)
-   + 数据处理
+   + [数据处理](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Linux/06%E3%80%81%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86.md)
    + 文件查找  
      
   
