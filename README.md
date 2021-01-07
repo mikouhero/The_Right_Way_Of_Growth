@@ -193,7 +193,7 @@
      * 进程管理[netstat命令]
    + [IO 模型](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Linux/03%E3%80%81IO%E6%A8%A1%E5%9E%8B.md)
    + [数据处理](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Linux/06%E3%80%81%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86.md)
-   + 文件查找  
+   + [文件查找](https://github.com/mikouhero/The_Right_Way_Of_Growth/blob/master/Linux/07%E3%80%81%E6%96%87%E4%BB%B6%E6%9F%A5%E6%89%BE.md) 
      
   
 
