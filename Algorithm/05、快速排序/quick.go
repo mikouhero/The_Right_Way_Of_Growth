@@ -62,7 +62,7 @@ func quick2(arr []int, left, right int) {
 	arr[left] = arr[i]
 	arr[i] = temp
 	// 递归，左右两侧分别排序
-	quick2(arr, left, i-1)
-	quick2(arr, i+1, right)
+	quickSort(arr, left, i-1)
+	quickSort(arr, i+1, right)
 }
 
