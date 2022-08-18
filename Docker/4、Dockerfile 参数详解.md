@@ -8,7 +8,10 @@
 第一条指令必须为FROM 指令。并且，如果在同一个Dockerfile中创建多个镜像时，可以使用多个FROM 指令（每个镜像一次）
 
 ### MAINTAINER
-> MAINTAINER <name>，指定维护者信息。
+> MAINTAINER <name>，指定维护者信息。 
+
+> 注：该指令已过时，建议使用如下形式： 
+>LABEL maintainer="M" 
 
 
 ### RUN
